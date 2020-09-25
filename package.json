@@ -1,6 +1,6 @@
 {
   "name": "elint-preset-test",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "use for elint system test",
   "main": "index.js",
   "scripts": {
