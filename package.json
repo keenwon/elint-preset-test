@@ -1,0 +1,43 @@
+{
+  "name": "elint-preset-test",
+  "version": "3.0.0",
+  "description": "use for elint system test",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "elint-helpers install"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "elint-helpers": "^1.2.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "stylelint-config-standard": "^18.2.0"
+  },
+  "peerDependencies": {
+    "elint": "^1"
+  },
+  "elint": {
+    "updateCheckInterval": 120000
+  },
+  "author": {
+    "name": "keenwon",
+    "email": "semanwmj@gmail.com",
+    "url": "http://keenwon.com"
+  },
+  "homepage": "https://github.com/keenwon/elint-preset-standard#readme",
+  "keywords": [
+    "elint-preset",
+    "elint"
+  ],
+  "bugs": {
+    "url": "https://github.com/keenwon/elint-preset-standard/issues"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keenwon/elint-preset-standard.git"
+  }
+}
