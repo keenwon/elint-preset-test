@@ -1,5 +1,7 @@
-"use strict"
+'use strict';
+
+const stylelintConfigStandardPath = require('elint-preset-test').stylelintConfigStandardPath;
 
 module.exports = {
-  extends: "stylelint-config-standard"
-}
+  extends: stylelintConfigStandardPath,
+};
